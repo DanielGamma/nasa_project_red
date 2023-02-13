@@ -1,7 +1,13 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'monoton': 'Monoton, cursive',  
+      'dancing': 'Dancing Script, cursive'
+    },
+    extend: { 
+    },
   },
   plugins: [],
 }
