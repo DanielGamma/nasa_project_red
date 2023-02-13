@@ -1,5 +1,7 @@
 import Logo from "../../Components/Logo/Logo" 
-import NavLink from '../NavLink/NavLink'
+import NavLink from '../NavLink/NavLink'  
+
+
 
 export default function Header() {
 
@@ -9,12 +11,16 @@ export default function Header() {
 
             <ul>
                 <NavLink 
+                    path='/'
                     nameLink = 'Home'/> 
                 <NavLink 
+                    path='landings'
                     nameLink= 'Map' /> 
                 <NavLink 
+                    path='landings/list'
                     nameLink= 'Landings' /> 
                 <NavLink 
+                    path='favourites'
                     nameLink= 'Favourites' />
             </ul> 
         </>
