@@ -9,6 +9,7 @@ export default function Header() {
         <> 
             <Logo />
 
+        <nav> 
             <ul>
                 <NavLink 
                     path='/'
@@ -23,6 +24,7 @@ export default function Header() {
                     path='favourites'
                     nameLink= 'Favourites' />
             </ul> 
+        </nav>
         </>
     )
 }
