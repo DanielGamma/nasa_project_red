@@ -6,8 +6,7 @@ export default function Logo() {
     return ( 
         <> 
             <div> 
-                <h1 className='font-monoton bg-fav'>Nasa</h1> 
-                <p className='font-dancing'>api</p>
+                <h1 className='font-monoton font-thin'>Nasa <span className='font-dancing'> api</span></h1> 
             </div> 
         </>
     )
