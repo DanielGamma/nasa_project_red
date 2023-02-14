@@ -19,7 +19,6 @@ function App() {
 
       <BrowserRouter> 
       <Header /> 
-      
           <Routes> 
               <Route path='/' element={<HomePage />} /> 
               <Route path='landings' element ={<MapPage />}/> 
