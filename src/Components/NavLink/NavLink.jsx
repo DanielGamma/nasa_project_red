@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavLink({nameLink, path}) {
     return ( 
         <li> 
-            <Link className="hover:h-1 after:h-1 before:h-1" to={path}>{nameLink}</Link>                    
+            <Link className="text-white hover:border-t-2 hover:border-b-2 " to={path}>{nameLink}</Link>                    
         </li>
     )
 }
