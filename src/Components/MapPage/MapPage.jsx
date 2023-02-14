@@ -1,7 +1,8 @@
-export default function MapPage() { 
-    return ( 
-        <> 
-           
-        </>
-    )
+
+export default function MapPage() {
+
+  return (
+    <>
+    </>
+  )
 }

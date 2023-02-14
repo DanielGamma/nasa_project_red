@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header' 
 
 import HomePage from './Components/HomePage/HomePage' 
-import MapPage from './Components/HomePage/HomePage' 
+import MapPage from './Components/MapPage/MapPage'
 import LandingsPage from './Components/HomePage/HomePage' 
 import DetailsPage from './Components/HomePage/HomePage' 
 import FormPage from './Components/HomePage/HomePage'
