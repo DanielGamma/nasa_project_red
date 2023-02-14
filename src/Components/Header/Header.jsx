@@ -6,12 +6,12 @@ import NavLink from '../../Components/NavLink/NavLink'
 export default function Header() {
 
     return ( 
-        <header> 
+        <header className="flex justify-between px-10 bg-navColor items-center"> 
             <Logo />
 
             <nav> 
-                <ul>
-                    <NavLink 
+                <ul className="flex gap-x-7 ">
+                    <NavLink
                         path='/'
                         nameLink = 'Home'/> 
                     <NavLink 
