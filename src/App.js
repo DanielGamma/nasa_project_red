@@ -1,7 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';  
 import './App.css'; 
 import Header from './Components/Header/Header' 
-import Footer from './Components/Footer/Footer'
 
 import HomePage from './Components/HomePage/HomePage' 
 import MapPage from './Components/HomePage/HomePage' 
@@ -20,7 +19,7 @@ function App() {
 
       <BrowserRouter> 
       <Header /> 
-      <Footer className='bg-background'/>
+      
           <Routes> 
               <Route path='/' element={<HomePage />} /> 
               <Route path='landings' element ={<MapPage />}/> 
