@@ -2,7 +2,7 @@
 export default function Footer() {
 
     return (
-        <div className="flex  pt-5 pb-5 bg-navColor justify-center gap-5 text-white">
+        <footer className="flex  pt-5 pb-5 bg-navColor justify-center gap-5 text-white">
             <div className="  ">
                 <h3 className=" text-lg text-rosado">Contact</h3>
                 <p>nasa.api@nasa-api.com</p>
@@ -24,7 +24,7 @@ export default function Footer() {
                 <h3 className=" text-lg text-rosado">Documentation</h3>
                 <p>API documentation.</p>
             </div>
-        </div>
+        </footer>
 
     )
 }
