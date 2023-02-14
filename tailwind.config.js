@@ -7,9 +7,6 @@ module.exports = {
       'dancing': 'Dancing Script, cursive'
     },
     extend: { 
-      colors: { 
-        'background': '#243763'
-      }
     },
   },
   plugins: [],
