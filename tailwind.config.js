@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,7 +13,8 @@ module.exports = {
     colors: {
       'navColor': 'rgb(42, 28, 61)', 
       'rosado': 'rgb(202, 59, 128)', 
-      'white': '#b9babc'
+      'white': '#b9babc', 
+      'baghome': '#6643b5'
     }
   },
   plugins: [],

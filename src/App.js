@@ -1,17 +1,14 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';  
-import './App.css'; 
 import Header from './Components/Header/Header' 
-
 import HomePage from './Components/HomePage/HomePage' 
-import MapPage from './Components/MapPage/MapPage'
-import LandingsPage from './Components/HomePage/HomePage' 
-import DetailsPage from './Components/HomePage/HomePage' 
-import FormPage from './Components/HomePage/HomePage'
-import FavouritesPage from './Components/HomePage/HomePage' 
+import MapPage from './Components/MapPage/MapPage' 
+import LandingsPage from './Components/LandingsPage/LandingsPage' 
+import DetailsPage from './Components/DetailsPage/DetailsPage' 
+import FormPage from "./Components/FormPage/FormPage"
+import FavouritesPage from "./Components/FavouritesPage/FavouritesPage" 
 
 
 function App() { 
-
 
   return (
     <div className="App">
