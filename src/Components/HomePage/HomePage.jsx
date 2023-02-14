@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 export default function HomePage() {
-    const [nasa, setnasa] = useState("")
+    const [nasa, setNasa] = useState("")
 
     useEffect(() => {
         fetch("https://api.nasa.gov/planetary/apod?api_key=5gN4CscwfihAlYWkLDDKzjQ8zEY2zYFjKOTbJXXo")
             .then(res => res.json())
-            .then(data => setnasa(data))
-            .catch(e => console.log(e))
+            .then(data => setNasa(data))
+            .catch(error => console.log(error))
     }, []);
 
     return (
