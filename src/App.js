@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';  
 import Header from './Components/Header/Header' 
 import HomePage from './Components/HomePage/HomePage' 
-import MapPage from './Components/HomePage/HomePage' 
-import LandingsPage from './Components/HomePage/HomePage' 
+import MapPage from './Components/MapPage/MapPage' 
+import LandingsPage from './Components/LandingsPage/LandingsPage' 
 import DetailsPage from './Components/HomePage/HomePage' 
 import FormPage from './Components/HomePage/HomePage'
 import FavouritesPage from './Components/HomePage/HomePage' 

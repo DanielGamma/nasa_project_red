@@ -1,5 +1,5 @@
 import Logo from "../../Components/Logo/Logo" 
-import NavLink from '../NavLink/NavLink'  
+import NavLink from '../../Components/NavLink/NavLink'  
 
 
 
