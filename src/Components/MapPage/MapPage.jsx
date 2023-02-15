@@ -22,11 +22,11 @@ export default function MapPage() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
          {
-          meteoritos.map((e,i)=> {
+          meteoritos.map((meteorito,i)=> {
             return (
-            <Marker position={[e.reclat, e.reclong]} key={i}>
+            <Marker position={[meteorito.reclat, meteorito.reclong]} key={i}>
               <Popup>
-                {e.name}
+                {meteorito.name}
               </Popup>
             </Marker>
             )
