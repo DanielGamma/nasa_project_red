@@ -1,18 +1,11 @@
+
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import { useState, useEffect } from "react";
+import { useContext } from "react";
+import {LandingContext} from '../../App'
 
 export default function MapPage() {
 
-  const [meteoritos, setMeteoritos] = useState([]);
-
-  useEffect(() => {
-    fetch("https://nasa-api-us5g.onrender.com/api/landings")
-      .then(res => res.json())
-      .then(data => {
-        setMeteoritos(data.landings.filter(fireball => fireball.reclat !== undefined || fireball.reclong !== undefined))
-      })
-      
-    }, []);
+  const {infoLandings} = useContext(LandingContext)
 
   return (
     <div className="flex justify-center align-center p-10 bg-baghome h-screen">
@@ -22,7 +15,7 @@ export default function MapPage() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
          {
-          meteoritos.map((meteorito,i)=> {
+          infoLandings.map((meteorito,i)=> {
             return (
             <Marker position={[meteorito.reclat, meteorito.reclong]} key={i}>
               <Popup>
