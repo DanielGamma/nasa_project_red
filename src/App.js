@@ -6,7 +6,8 @@ import MapPage from './Components/MapPage/MapPage.jsx'
 import LandingsPage from './Components/LandingsPage/LandingsPage.jsx'
 import DetailsPage from './Components/DetailsPage/DetailsPage.jsx'
 import FormPage from './Components/FormPage/FormPage.jsx'
-import FavouritesPage from './Components/FavouritesPage/FavouritesPage.jsx'
+import FavouritesPage from './Components/FavouritesPage/FavouritesPage.jsx' 
+import CreateForm from './Components/FormPage/CreateForm' 
 import Footer from './Components/Footer/Footer.jsx'
 
 export const LandingContext = createContext()
@@ -28,7 +29,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter> 
         <LandingContext.Provider value={{ infoLandings }}>
           <Header />
           <Routes>
@@ -38,7 +39,8 @@ export default function App() {
             <Route path='landings/details/:id' element={<DetailsPage />} />
             <Route path='landings/create' element={<FormPage />} />
             <Route path='landings/update/:id' element={<HomePage />} />
-            <Route path='favourites' element={<FavouritesPage />} />
+            <Route path='favourites' element={<FavouritesPage />} /> 
+            <Route path='create' element ={<CreateForm />}/>
           </Routes>
           <Footer />
         </LandingContext.Provider>
