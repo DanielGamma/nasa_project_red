@@ -12,7 +12,7 @@ export default function HomePage() {
 
     return (
     <>
-        <div className=" flex  flex-col items-center bg-baghome pt-20 pb-10">
+        <div className=" flex flex-col items-center bg-baghome pt-20 pb-10">
             <h2 className=" text-lg text-slate-300  pb-5 ">{nasa.title}</h2>
             <img className=" w-2/4" src={nasa.url} alt="" />
             <p className=" text-white pt-5 w-2/4">{nasa.explanation}</p>

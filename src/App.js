@@ -6,7 +6,7 @@ import LandingsPage from './Components/LandingsPage/LandingsPage.jsx'
 import DetailsPage from './Components/DetailsPage/DetailsPage.jsx' 
 import FormPage from './Components/FormPage/FormPage.jsx'
 import FavouritesPage from './Components/FavouritesPage/FavouritesPage.jsx' 
-
+import CreateForm from './Components/FormPage/CreateForm' 
 
 
 function App() { 
@@ -23,6 +23,7 @@ function App() {
               <Route path='landings/create' element ={<FormPage />}/> 
               <Route path='landings/update/:id' element ={<HomePage />}/> 
               <Route path='favourites' element ={<FavouritesPage />}/>
+              <Route path='create' element ={<CreateForm />}/>
           </Routes>
       </BrowserRouter> 
 

@@ -15,6 +15,7 @@ export default function Header() {
                     <NavLink path='landings' nameLink= 'Map' /> 
                     <NavLink path='landings/list' nameLink= 'Landings' /> 
                     <NavLink path='favourites' nameLink= 'Favourites' />
+                    <NavLink path='create' nameLink= 'Create' />
                 </ul> 
             </nav>
         </header>
