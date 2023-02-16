@@ -1,16 +1,16 @@
 import LandingCard from "./LandingCard"
 
-export default function LandingsList({landing}) { 
-    console.log(landing); 
-    
+export default function LandingsList({landings}) { 
+    console.log(landings);
+
     return ( 
         <div className="flex flex-wrap justify-center p-6 bg-baghome gap-8">  
             { 
-                landing.map((land, i) => { 
-                    return <LandingCard title = {land.name} 
-                    Mass = {land.mass} 
-                    latitude = {land.reclat} 
-                    longitude = {land.reclong}   key={i} /> 
+                landings.map((landing, i) => { 
+                    return <LandingCard title = {landing.name} 
+                    Mass = {landing.mass} 
+                    latitude = {landing.reclat} 
+                    longitude = {landing.reclong}   key={i} /> 
                 } )
             }
         </div>

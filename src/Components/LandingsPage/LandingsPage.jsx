@@ -3,7 +3,7 @@ import LandingsList from "./LandingsList"
 
 export default function LandingsPage() {  
 
-    const [landing, setLanding] = useState([]);
+    const [landings, setLanding] = useState([]);
 
     useEffect(() => {  
         fetch("https://nasa-api-us5g.onrender.com/api/landings") 
@@ -14,6 +14,6 @@ export default function LandingsPage() {
     }, []) 
 
     return ( 
-            <LandingsList landing = {landing}/>
+            <LandingsList landings = {landings}/>
     )
 }
