@@ -9,7 +9,9 @@ export default function LandingsList({landings}) {
                     return <LandingCard title = {landing.name} 
                     Mass = {landing.mass} 
                     latitude = {landing.reclat} 
-                    longitude = {landing.reclong}   key={i} /> 
+                    longitude = {landing.reclong}
+                    id= {landing._id}
+                    key={i} /> 
                 } )
             }
         </div>
