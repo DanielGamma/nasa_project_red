@@ -1,20 +1,17 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';  
 import Header from './Components/Header/Header' 
 import HomePage from './Components/HomePage/HomePage' 
-import MapPage from './Components/MapPage/MapPage' 
-import LandingsPage from './Components/LandingsPage/LandingsPage' 
-import DetailsPage from './Components/DetailsPage/DetailsPage' 
-import FormPage from "./Components/FormPage/FormPage"
-import FavouritesPage from "./Components/FavouritesPage/FavouritesPage" 
-import Footer from './Components/Footer/Footer';
+import MapPage from './Components/MapPage/MapPage.jsx' 
+import LandingsPage from './Components/LandingsPage/LandingsPage.jsx' 
+import DetailsPage from './Components/DetailsPage/DetailsPage.jsx' 
+import FormPage from './Components/FormPage/FormPage.jsx'
+import FavouritesPage from './Components/FavouritesPage/FavouritesPage.jsx' 
 
 
 function App() { 
 
   return (
     <div className="App">
-
-
       <BrowserRouter> 
       <Header /> 
           <Routes> 

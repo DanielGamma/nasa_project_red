@@ -11,18 +11,11 @@ export default function Header() {
 
             <nav> 
                 <ul className="flex gap-x-7 ">
-                    <NavLink
-                        path='/'
-                        nameLink = 'Home'/> 
-                    <NavLink 
-                        path='landings'
-                        nameLink= 'Map' /> 
-                    <NavLink 
-                        path='landings/list'
-                        nameLink= 'Landings' /> 
-                    <NavLink 
-                        path='favourites'
-                        nameLink= 'Favourites' />
+                    <NavLink path='/' nameLink = 'Home'/> 
+                    <NavLink path='landings' nameLink= 'Map' /> 
+                    <NavLink path='landings/list' nameLink= 'Landings' /> 
+                    <NavLink path='favourites' nameLink= 'Favourites' /> 
+                    
                 </ul> 
             </nav>
         </header>

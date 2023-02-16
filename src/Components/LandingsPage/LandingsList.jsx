@@ -4,7 +4,7 @@ export default function LandingsList({landing}) {
     console.log(landing); 
     
     return ( 
-        <div className="flex flex-wrap p-6 bg-baghome gap-8">  
+        <div className="flex flex-wrap justify-center p-6 bg-baghome gap-8">  
             { 
                 landing.map((land, i) => { 
                     return <LandingCard title = {land.name} 
@@ -18,4 +18,3 @@ export default function LandingsList({landing}) {
     
 } 
 
-// className="flex flex-wrap p-6 bg-baghome gap-8"
