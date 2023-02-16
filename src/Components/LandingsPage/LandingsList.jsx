@@ -1,7 +1,6 @@
 import LandingCard from "./LandingCard"
 
 export default function LandingsList({landings}) { 
-    console.log(landings);
 
     return ( 
         <div className="flex flex-wrap justify-center p-6 bg-baghome gap-8">  
