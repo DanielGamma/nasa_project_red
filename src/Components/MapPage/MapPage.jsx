@@ -8,7 +8,7 @@ export default function MapPage() {
   useEffect(() => {
     fetch("https://nasa-api-us5g.onrender.com/api/landings")
       .then(res => res.json())
-      .then(data => {
+      .then(data => { 
         setMeteoritos(data.landings.filter(fireball => fireball.reclat !== undefined || fireball.reclong !== undefined))
       })
       
