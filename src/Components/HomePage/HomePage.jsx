@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Footer from "../Footer/Footer";
 
 export default function HomePage() {
 
@@ -19,7 +18,6 @@ export default function HomePage() {
                 <img className=" w-2/4" src={nasa.url} alt="" />
                 <p className=" text-white pt-5 w-2/4">{nasa.explanation}</p>
             </div>
-            <Footer />
         </>
     )
 }
