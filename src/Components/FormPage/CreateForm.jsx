@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 
 export default function CreateForm({ form,setForm }) {
@@ -7,8 +7,6 @@ export default function CreateForm({ form,setForm }) {
         // meteorito.preventDefault();
         // setForm(prev =>[ ... prev, meteorito.target.meteoro.value] )
         //     localStorage.setItem("meteorite", JSON.stringify(setForm));
-        
-
  }
 
     return (
