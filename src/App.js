@@ -42,7 +42,8 @@ function App() {
               <Route path='landings/create' element ={<FormPage />}/> 
               <Route path='landings/update/:id' element ={<HomePage />}/> 
               <Route path='favourites' element ={<FavouritesPage />}/>
-          </Routes>
+          </Routes> 
+          {/* <Footer /> */}
       </BrowserRouter> 
 
     </div>
