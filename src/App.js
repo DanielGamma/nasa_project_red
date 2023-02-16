@@ -8,7 +8,6 @@ import FormPage from './Components/FormPage/FormPage.jsx'
 import FavouritesPage from './Components/FavouritesPage/FavouritesPage.jsx' 
 
 
-
 function App() { 
 
   return (
@@ -23,7 +22,8 @@ function App() {
               <Route path='landings/create' element ={<FormPage />}/> 
               <Route path='landings/update/:id' element ={<HomePage />}/> 
               <Route path='favourites' element ={<FavouritesPage />}/>
-          </Routes>
+          </Routes> 
+          {/* <Footer /> */}
       </BrowserRouter> 
 
     </div>
